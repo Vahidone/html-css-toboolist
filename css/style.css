@@ -118,5 +118,26 @@ ul li{
   display: inline-block;
   margin-top: 20px;
 }
-
-
+#q1{
+  background-color: rgb(145, 44, 145);
+}
+#rec{
+  background-color: rgb(26, 97, 26);
+}
+.circle-red{
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+}
+.check-multi{
+  font-size: 19px;
+  color: red;
+}
+#orange{
+  background-color: orange;
+}

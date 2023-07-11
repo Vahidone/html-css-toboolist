@@ -79,6 +79,7 @@ header .titolo-header span{
   width: 100%;
   height: 800px;
   margin-top: 3px;
+  margin-bottom: 20px;
   background-color: white;
 }
 h1{
@@ -140,4 +141,10 @@ ul li{
 }
 #orange{
   background-color: orange;
+}
+#website{
+  background-color: palevioletred;
+}
+#sales{
+  background-color: lightgreen;
 }

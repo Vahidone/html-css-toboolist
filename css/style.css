@@ -58,8 +58,10 @@ header .titolo-header span{
   color: white;
   line-height: 40px;
   display: inline-block;
-  margin-left: 80px;
   margin-top: 20px;
+}
+.add-button, h1, ul{
+  margin-left: 80px;
 }
 /* bottone Add section  */
 .section-button{
@@ -81,7 +83,40 @@ header .titolo-header span{
 }
 h1{
   font-size: 28px;
-  margin-left: 80px;
+  padding-top: 50px;
+}
+ul li{
+  font-size: 25px;
+  list-style: none;
+}
+.circle{
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+  
+}
+.check{
+  font-size: 20px;
+  margin: auto;
+  color: green;
+}
+.editorial{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(108, 177, 227);
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 

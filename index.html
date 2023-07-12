@@ -10,19 +10,18 @@
   <!-- Header: logo  -->
   <header>
     <img src="img/logo_360.png" alt="logo">
-    <div class="titolo-header">
-      <span>Toboolist</span>
-    </div>
+    <span>Toboolist</span>
   </header>
   <!-- /Header: logo  -->
 
 
   <main class="container">
+    <!-- i due button di Task e Section -->
     <div class="task-bar">
-      <div class="add-button">
+      <div class="add-button task">
         <span>Add Task</span>
       </div>
-      <div class="section-button">
+      <div class="add-button section ">
         <span>Add Section</span>
       </div>
     </div>
@@ -30,14 +29,14 @@
 
       <!-- section New Task e la lista -->
       <section>
-        <h1>&#9662;New Task</h1>
+        <h1><span class="triangle">&#9662;</span>New Task</h1>
         <ul>
           <li>
-            <div class="circle">
-              <span class="check">&#10003;</span>
+            <div class="circle check">
+              <span>&#10003;</span>
             </div>
             <span class="text-list">Quarterly Newsletter</span>
-            <div class="editorial">
+            <div class="tasti editorial">
               <span>Editorial</span>
             </div>
           </li>
@@ -45,14 +44,14 @@
       </section>
       <!-- section Today e la lista  -->
       <section>
-        <h1>&#9662;Today</h1>
+        <h1><span class="triangle">&#9662;</span>Today</h1>
         <ul>
           <li>
-            <div class="circle">
-              <span class="check">&#10003;</span>
+            <div class="circle check">
+              <span>&#10003;</span>
             </div>
             <span class="text-list">Recruiting blog post</span>
-            <div class="editorial">
+            <div class="tasti editorial">
               <span>Editorial</span>
             </div>
           </li>
@@ -61,16 +60,16 @@
               <span class="check">&#10003;</span>
             </div>
             <span class="text-list">Mobile app luanch</span>
-            <div class="editorial" id="q1">
+            <div class="tasti q1">
               <span>Q1 Goals</span>
             </div>
           </li>
           <li>
-            <div class="circle-red">
-              <span class="check-multi">&#10005;</span>
+            <div class="circle multi">
+              <span>&#10005;</span>
             </div>
             <span class="text-list">Interview John H</span>
-            <div class="editorial" id="rec">
+            <div class="tasti recruiting">
               <span>Recruiting</span>
             </div>
           </li>
@@ -79,7 +78,7 @@
               <span class="check">&#10003;</span>
             </div>
             <span class="text-list">Summit update to mobile storefronts</span>
-            <div class="editorial" id="orange">
+            <div class="tasti mobile" id="orange">
               <span>Mobile</span>
             </div>
           </li>
@@ -88,11 +87,11 @@
 
       <!-- la parte Upcoming e la lista -->
       <section>
-        <h1>&#9662;Upcoming</h1>
+        <h1 id="up"><span class="triangle">&#9662;</span>Upcoming</h1>
         <ul>
           <li>
-            <div class="circle-red">
-              <span class="check-multi">&#10005;</span>
+            <div class="circle multi">
+              <span>&#10005;</span>
             </div>
             <span class="text-list">Schedule meeting with Alex</span>
           </li>
@@ -101,7 +100,7 @@
               <span class="check">&#10003;</span>
             </div>
             <span class="text-list">Homepage refresh</span>
-            <div class="editorial" id="website">
+            <div class="tasti website">
               <span>Website</span>
             </div>
           </li>
@@ -110,7 +109,7 @@
               <span class="check">&#10003;</span>
             </div>
             <span class="text-list">Onboard new Sales team members</span>
-            <div class="editorial" id="sales">
+            <div class="tasti sales">
               <span>Sales</span>
             </div>
           </li>
@@ -119,7 +118,7 @@
               <span class="check">&#10003;</span>
             </div>
             <span class="text-list">Review editorial calendar</span>
-            <div class="editorial">
+            <div class="tasti editorial">
               <span>Editorial</span>
             </div>
           </li>
